@@ -45,7 +45,7 @@ const sections: Section[] = [
             name: "Salted Kelp Cabbage",
             jp: "塩昆布キャベツ",
             desc: "Seasonal cabbage tossed with salted kelp",
-            price: "₱180",
+            price: "₱150",
             image: appetizerImage("Salted Kelp Cabbage"),
           },
           {
@@ -59,7 +59,7 @@ const sections: Section[] = [
             name: "Pickled Okra",
             jp: "オクラのお漬物",
             desc: "Crisp okra pickles",
-            price: "₱220",
+            price: "₱180",
             image: appetizerImage("Pickled Okra"),
           },
           {
@@ -364,7 +364,6 @@ const sections: Section[] = [
             jp: "旨辛キムはるさめ",
             desc: "Spicy glass noodle salad",
             price: "₱250",
-            image: "/image/sauted chicken.png",
           },
           {
             name: "Nanbanzuke",
@@ -416,6 +415,13 @@ const sections: Section[] = [
             image: "/image/nanban.png",
           },
           {
+            name: "Sauted Chicken and Lotus Root",
+            jp: "鶏マヨレンコン",
+            desc: "Chicken and lotus root in mayo sauce · RECOMMENDED",
+            price: "₱350",
+            image: "/image/sauted chicken and lotus root.png",
+          },
+          {
             name: "Buta no Kakuni",
             jp: "豚の角煮",
             desc: "Braised pork belly",
@@ -437,17 +443,10 @@ const sections: Section[] = [
             image: "/image/essen.png",
           },
           {
-            name: "Omi Beef Yakiniku",
-            jp: "近江牛 焼肉",
-            desc: "Premium Omi beef yakiniku",
-            price: "₱1,100",
-            image: "/image/omi beef.png",
-          },
-          {
             name: "Miyazaki Wagyu Steak",
             jp: "宮崎牛ステーキ",
             desc: "World's No.1 Miyazaki Wagyu steak",
-            price: "₱2,480",
+            price: "₱2,680",
             image: "/image/wagyu.png",
           },
         ],
@@ -456,6 +455,26 @@ const sections: Section[] = [
         name: "Nabe / Hot Pot",
         jp: "鍋 / HOT POT",
         items: [
+          {
+            name: "Lamb Shabu Nabe",
+            jp: "ラムしゃぶ鍋",
+            desc: "Thinly sliced lamb shabu-shabu hot pot · NEW",
+            price: "₱650",
+            image: "/image/lamb shabu nabe.png",
+          },
+          {
+            name: "Additional Lamb",
+            jp: "※ラム追加",
+            desc: "Extra lamb add-on for shabu nabe",
+            price: "₱300",
+          },
+          {
+            name: "Ojiya Porridge",
+            jp: "おじや",
+            desc: "Rice porridge made with leftover lamb shabu nabe broth — please save some soup from your pot",
+            price: "₱180",
+            image: "/image/ojiya.png",
+          },
           {
             name: "Butabara Cabbage Nabe",
             jp: "豚バラキャベツの旨鍋",
@@ -490,6 +509,13 @@ const sections: Section[] = [
             desc: "Thinly sliced salmon with citrus dressing",
             price: "₱580",
             image: "/image/carpaccio.png",
+          },
+          {
+            name: "Tai Meuniere",
+            jp: "タイのムニエル",
+            desc: "Pan-fried sea bream in butter sauce · Rare menu",
+            price: "₱450",
+            image: "/image/tai meuniere.png",
           },
           {
             name: "Anchovies Shiokombu Cabbage",
@@ -650,6 +676,13 @@ const sections: Section[] = [
             image: "/image/keema.png",
           },
           {
+            name: "Musui Butter Chicken Curry Rice",
+            jp: "無水バターチキン トマトカレーライス",
+            desc: "Waterless butter chicken tomato curry with rice · NEW",
+            price: "₱500",
+            image: "/image/musui butter chicken curry rice.png",
+          },
+          {
             name: "Taco Rice",
             jp: "タコライス",
             desc: "Taco-seasoned beef on rice",
@@ -685,11 +718,11 @@ const sections: Section[] = [
             image: "/image/gyudon bawl.png",
           },
           {
-            name: "Omi Beef Yakiniku Don",
-            jp: "近江牛 焼肉丼",
-            desc: "Premium beef yakiniku rice bowl",
-            price: "₱1,000",
-            image: "/image/omi don.png",
+            name: "Misuji Yakiniku Don",
+            jp: "ミスジ焼肉丼",
+            desc: "Grilled misuji beef yakiniku over rice",
+            price: "₱850",
+            image: "/image/misuji yakiniku don.png",
           },
           {
             name: "Butadon / Pork Bowl",
@@ -711,6 +744,13 @@ const sections: Section[] = [
             desc: "Spicy cod roe rice ball with perilla",
             price: "₱200",
             image: "/image/ooba.png",
+          },
+          {
+            name: "Tuna Mayo Onigiri",
+            jp: "ツナマヨおにぎり",
+            desc: "Tuna mayonnaise rice ball · NEW",
+            price: "₱200",
+            image: "/image/tuna mayo onigiri.png",
           },
           {
             name: "Salmon Onigiri",
@@ -763,11 +803,18 @@ const sections: Section[] = [
             image: "/image/salmon.png",
           },
           {
-            name: "Omi Beef Sushi",
-            jp: "近江牛てまり寿司",
-            desc: "Premium Omi beef sushi",
-            price: "₱700",
-            image: "/image/omi.png",
+            name: "Misuji Aburi Sushi",
+            jp: "ミスジ牛炙り寿司",
+            desc: "Seared misuji beef nigiri · NEW",
+            price: "₱400",
+            image: "/image/misuji aburi sushi.png",
+          },
+          {
+            name: "Mentaiko Temari Sushi",
+            jp: "明太子てまり寿司",
+            desc: "Spicy cod roe temari sushi · NEW",
+            price: "₱480",
+            image: "/image/mentaiko temari sushi.png",
           },
           {
             name: "Ikura Sushi",
@@ -775,6 +822,25 @@ const sections: Section[] = [
             desc: "Salmon roe sushi",
             price: "₱580",
             image: "/image/ikura (2).png",
+          },
+        ],
+      },
+      {
+        name: "Add-ons",
+        jp: "追加",
+        items: [
+          {
+            name: "Scrambled Eggs Topping",
+            jp: "スクランブルエッグトッピング",
+            desc: "Scrambled egg topping add-on",
+            price: "₱50",
+            image: "/image/scrambled eggs topping.png",
+          },
+          {
+            name: "Add Rice",
+            jp: "※ライス追加",
+            desc: "Extra serving of rice",
+            price: "₱50",
           },
         ],
       },
@@ -803,6 +869,26 @@ const sections: Section[] = [
         jp: "ラーメン",
         items: [
           {
+            name: "Tokusei Tsukemen",
+            jp: "特製つけ麺",
+            desc: "Special dipping ramen with rich broth · NEW",
+            price: "₱550",
+            image: "/image/tokusei tsukemen.png",
+          },
+          {
+            name: "Kaedama",
+            jp: "※替え玉",
+            desc: "Extra serving of noodles for tsukemen",
+            price: "₱200",
+          },
+          {
+            name: "Abura Soba",
+            jp: "油そば",
+            desc: "Soupless mixed noodles · add sauce and chili oil to taste · NEW",
+            price: "₱400",
+            image: "/image/abura soba.png",
+          },
+          {
             name: "Shoyu Ramen",
             jp: "しょうゆラーメン",
             desc: "Classic soy sauce ramen",
@@ -824,11 +910,25 @@ const sections: Section[] = [
             image: "/image/miso ramen.png",
           },
           {
+            name: "Hiyashi Ramen",
+            jp: "冷やしラーメン",
+            desc: "Chilled ramen with egg and toppings · NEW",
+            price: "₱350",
+            image: "/image/hiyashi ramen.png",
+          },
+          {
             name: "Salad Ramen",
             jp: "サラダラーメン",
             desc: "Cold salad-style ramen",
             price: "₱400",
             image: "/image/salad ramen.png",
+          },
+          {
+            name: "Hiyashi Chuka",
+            jp: "冷やし中華",
+            desc: "Chilled Chinese-style noodles · extra sauce served — adjust to taste",
+            price: "₱450",
+            image: "/image/hiyashi chuka.png",
           },
         ],
       },
@@ -836,6 +936,13 @@ const sections: Section[] = [
         name: "Soumen",
         jp: "そうめん",
         items: [
+          {
+            name: "Toripaitan Soumen Hot",
+            jp: "鶏白湯そうめん",
+            desc: "Hot chicken paitan soumen · NEW",
+            price: "₱400",
+            image: "/image/toripaitan soumen hot.png",
+          },
           {
             name: "Torigara Hot Soumen",
             jp: "鶏ガラホットそうめん",
@@ -952,6 +1059,18 @@ const sections: Section[] = [
     image:
       "/stitch_hidamari_inspired_portfolio/image_from_https_hidamari_restaurant.com_images_drink_btn.png/screen.png",
     categories: [
+      {
+        name: "Drink Sets",
+        jp: "ドリンクセット",
+        items: [
+          {
+            name: "Evening Drink Set",
+            jp: "夜のドリンクセット",
+            desc: "Evening drink set available during dinner service",
+            price: "₱600",
+          },
+        ],
+      },
       {
         name: "Beer",
         jp: "ビール",
