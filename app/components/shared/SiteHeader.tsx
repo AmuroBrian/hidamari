@@ -32,9 +32,6 @@ export function SiteHeader({ active }: SiteHeaderProps) {
             className="object-contain object-left h-12 md:h-20 w-auto max-h-20 shrink-0"
             priority
           />
-          <span className="hidden md:inline-block font-headline-lg text-headline-lg text-primary tracking-tight -ml-3">
-            Hidamari
-          </span>
         </Link>
 
         <div className="hidden md:flex items-center justify-center gap-6">
