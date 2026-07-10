@@ -127,33 +127,6 @@ export function LunchPage() {
           </div>
         </section>
 
-        {/* ── Status Banner (overlaps hero) ── */}
-        <section className="max-w-2xl mx-auto px-6 -mt-12 relative z-10" data-reveal>
-          <div className="bg-primary-container text-paper-white sunlit-shadow rounded-xl p-8 border border-paper-white/10 text-center">
-            {/* Red pill badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-1.5 bg-paper-white/15 text-paper-white rounded-full font-label-md text-label-md uppercase mb-4">
-              <i className="fi fi-rr-info flex text-[17px]" aria-hidden="true" />
-              {t("lunch.serviceUpdate")}
-            </div>
-            <h2 className="font-headline-lg text-headline-lg text-paper-white mb-4">
-              {t("lunch.weekdaySuspended")}
-            </h2>
-            <p className="font-body-md text-body-md text-paper-white/90 leading-relaxed">
-              {t("lunch.weekdaySuspendedBody")}
-            </p>
-            <div className="mt-6 flex justify-center border-t border-paper-white/20 pt-6">
-              <div className="flex flex-col items-center">
-                <span className="font-label-md text-label-md text-paper-white font-bold">
-                  {t("lunch.weekendsHolidays")}
-                </span>
-                <span className="font-body-md text-body-md text-paper-white/85">
-                  {t("lunch.weekendHours")}
-                </span>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* ── Popular Choices ── */}
         <section
           className="max-w-7xl mx-auto px-6 md:px-margin-desktop py-section-gap"

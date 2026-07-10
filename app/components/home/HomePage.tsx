@@ -44,7 +44,6 @@ export function HomePage() {
         <HeroSection />
 
         <div className="relative z-10 bg-background">
-        <HeroServiceNotice />
         {/* ══════════════════════════════════════════
             PHILOSOPHY
         ══════════════════════════════════════════ */}

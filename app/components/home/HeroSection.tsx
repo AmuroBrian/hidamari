@@ -42,7 +42,7 @@ export function HeroSection() {
             ) : (
               <>
                 {t("hero.title")}{" "}
-                <span className="italic text-primary-fixed">{t("hero.titleItalic")}</span> to{" "}
+                <span className="italic text-primary-fixed">{t("hero.titleItalic")}</span>
                 <br />
                 {t("hero.titleLine2")}
               </>
